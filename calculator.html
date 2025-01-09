@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <title>Calculator</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+        .body {
+            background-color: rgb(59, 75, 70);
+            height: 350px;
+            width: 250px;
+            margin: 20px auto;
+            border-radius: 7px;
+            padding: 20px;
+
+            border: solid rgb(45, 42, 42);
+            padding-top: 30px;
+
+        }
+
+        .screen {
+
+            font-family: "Doto", serif;
+            height: 70px;
+            width: 250px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            background-color: black;
+            border: double white 0.5px;
+            border-radius: 15px;
+            color: white;
+            font-size: 40px;
+            f color: rgb(213, 235, 235);
+            text-align: end;
+        }
+
+        .button {
+            display: flex;
+            flex-direction: column;
+            height: 250px;
+            color: rgb(241, 238, 238);
+            width: 250px;
+            flex-wrap: wrap;
+            padding-left: 17px;
+        }
+
+        .om {
+            height: 40px;
+            width: 50px;
+            padding: 5px;
+            margin: 5px;
+            border: solid black;
+            border-radius: 10px;
+            text-align: center;
+            font-size: larger;
+
+        }
+
+        .tex {
+            color: rgb(245, 239, 239);
+
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .om:hover {
+            box-shadow: 0 0 5px white;
+            transition: 0.3s;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="body">
+        <h7 class="tex"># CASIO.COM</h7>
+        <input type="text" value="0" class="screen">
+
+        <div class="button">
+            <button class="om">AC</button>
+            <button class="om">1</button>
+            <button class="om">2</button>
+            <button class="om">3</button>
+            <button class="om">4</button>
+
+            <button class="om">5</button>
+            <button class="om">6</button>
+            <button class="om">7</button>
+            <button class="om">8</button>
+            <button class="om">9</button>
+
+            <button class="om">%</button>
+            <button class="om">+</button>
+            <button class="om">-</button>
+            <button class="om">*</button>
+            <button class="om">=</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
